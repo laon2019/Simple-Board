@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>등록페이지</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="board">
+        <div class="board_title">
+            <h1>등록페이지</h1>
+        </div>
+        <div class="board_register_main">
+            <div class="board_register">
+                <div class="title">
+                    <h3>제목</h3>
+                    <textarea class="text_title"></textarea>
+                </div>
+                <div class="content">
+                    <h3>내용</h3>
+                    <textarea class="text_content"></textarea>
+                </div>
+            </div>
+            <div class="register">
+                <button onclick="register()">등록</button>
+                <button class="white"><a href="/list">취소</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/javascript/register.js"></script>
+</html>
